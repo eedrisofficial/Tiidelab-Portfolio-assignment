@@ -1,0 +1,86 @@
+@media (max-width: 768px) {
+  /* styling the navbar */
+  .navbar-container {
+    background-color: rgb(8, 100, 100);
+  }
+  .navbar {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+  }
+
+  .navbar h1 {
+    display: none;
+  }
+
+  /* styling showcase section */
+  .showcase-wrapper .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .showcase-content {
+    line-height: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+  }
+
+  .stack {
+    font-size: 1.2rem;
+    color: rgb(28, 248, 248);
+  }
+
+  .name {
+    font-size: 1.8rem;
+  }
+
+  .showcase-image {
+    text-align: center;
+  }
+
+  /* Styling the About section */
+  .about-me {
+    text-align: center;
+  }
+
+  .about-me p {
+    margin: auto;
+    text-align: justify;
+    width: 80%;
+  }
+
+  .brief {
+  }
+
+  .skills h3 {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .skills-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+
+  .About-image {
+    flex-basis: calc(50% - 20px);
+    margin: 10px;
+    width: 100px;
+  }
+
+  /* Contact styling */
+  .contactSocial-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13rem;
+  }
+}
